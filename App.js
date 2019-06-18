@@ -202,10 +202,12 @@ const styles = StyleSheet.create({
     alignItems: "center"
   },
   weatherData: {
+    color: "black",
     justifyContent: "center",
     fontSize: 40
   },
   weatherSubData: {
+    color: "black",
     justifyContent: "center",
     fontSize: 25
   },
@@ -222,20 +224,11 @@ const styles = StyleSheet.create({
     borderRadius: 20
   },
   forecastSubData: {
+    color: "black",
     fontSize: 25
   },
   airfield: {
     justifyContent: "center",
     alignItems: "center"
-  },
-  welcome: {
-    fontSize: 20,
-    textAlign: "center",
-    margin: 10
-  },
-  instructions: {
-    textAlign: "center",
-    color: "#333333",
-    marginBottom: 5
   }
 });
