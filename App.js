@@ -34,7 +34,7 @@ export default class App extends Component {
 
   getForecast = () => {
     axios(
-      "http://api.openweathermap.org/data/2.5/forecast?lat=31.008748&lon=-97.625177&units=imperial&appid=991660e562aeb201f32c6faaa300a2fe"
+      "https://api.openweathermap.org/data/2.5/forecast?lat=31.008748&lon=-97.625177&units=imperial&appid=991660e562aeb201f32c6faaa300a2fe"
     )
       .then(response => {
         this.setState({ forecast: response.data });
@@ -47,7 +47,7 @@ export default class App extends Component {
 
   getWeather = () => {
     axios(
-      "http://api.openweathermap.org/data/2.5/weather?lat=31.008748&lon=-97.625177&units=imperial&appid=991660e562aeb201f32c6faaa300a2fe"
+      "https://api.openweathermap.org/data/2.5/weather?lat=31.008748&lon=-97.625177&units=imperial&appid=991660e562aeb201f32c6faaa300a2fe"
     )
       .then(response => {
         this.setState({ weather: response.data });
